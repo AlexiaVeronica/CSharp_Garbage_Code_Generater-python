@@ -357,7 +357,6 @@ for i in range(1, 100):
     # print(classes[i-1]["methods"][0]["content"][0]["name"])
     # print(classes[i-1]["methods"][0]["content"][0]["t"])
 
-
 methods = {}
 for i in range(1, 20):
     t, v = getRandomType()
@@ -536,10 +535,10 @@ def main():
         print("Done!")
     if not quiet:
         print("output = " + name)
-        print("class count = " + class_count)
-        print("method count = " + method_count)
-        print("property count = " + property_count)
-        print("attribute count = " + attribute_count)
+        print("class count = " + str(class_count))
+        print("method count = " + str(method_count))
+        print("property count = " + str(property_count))
+        print("attribute count = " + str(attribute_count))
     path = name + "/"
     try:
         os.mkdir(name)
