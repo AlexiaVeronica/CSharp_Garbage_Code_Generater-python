@@ -1,6 +1,6 @@
 
 # python重写一个lua实现的C#垃圾代码生成器
-# C#垃圾代码生成器 lua 仓库地址:https://github.com/xerysherry/CSharp_Garbage_Code_Generater
+##  C#垃圾代码生成器 lua 仓库地址: github.com/xerysherry/CSharp_Garbage_Code_Generater
 C# Garbage Code Generater
 -------------------------
 	-h: Help
